@@ -6,8 +6,9 @@ import edu.jalc.everydaythings.bottle.beverage.SodaBottle;
 import edu.jalc.everydaythings.bottle.utility.HandSanitizerBottle;
 import edu.jalc.everydaythings.liquid.beverage.Beer;
 import edu.jalc.everydaythings.liquid.beverage.Soda;
-import edu.jalc.everydaythings.liquid.Water;
+import edu.jalc.everydaythings.liquid.beverage.Water;
 import edu.jalc.everydaythings.liquid.utility.HandSanitizer;
+import edu.jalc.everydaythings.bottle.beverage.WaterBottle;
 
 import java.util.ArrayList;
 
@@ -32,6 +33,7 @@ public class Driver {
 
 		beverages.add(new SodaBottle(20, new Soda()));
 		beverages.add(new BeerBottle(16, new Beer()));
+		beverages.add(new WaterBottle(16, new Water()));
 
 		// Will no longer work, but with extra credit, it can be turned back on.
 		// beverages.add(new WaterBottle(20, new Water()));
